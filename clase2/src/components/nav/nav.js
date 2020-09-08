@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../logo.svg';
+import logo from '../../logo.svg';
 import './nav.scss';
 
 let nav = () => {
@@ -7,7 +7,7 @@ let nav = () => {
     <div className="nav">
       <nav>
         <div className="logo">
-          <img src={logo}></img>
+          <img src={ logo } alt=""></img>
         </div>
         <ul>
           <li>PORTAFOLIO</li>
